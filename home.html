@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+<style>
+    body{
+        background-image: url('pictures/bg.jfif');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        margin: 0px;
+        min-height: 100%;
+        width: 100%;
+
+    }
+    html{
+        margin: 0px;
+        height: 100%;
+        width: 100%;
+    }
+</style>
+<body>
+    <div class="title">
+        Renting car site
+    </div>
+    <div class="profile" onclick="document.location = 'user.html'">
+        <i>Profile</i>
+        <img src="pictures/profile.jfif" width="40" style="border-radius: 50%;">
+    </div>
+    <div class="centered">
+        <br>
+        <button class="btn" onclick="document.location = 'cars.html'">Cars list</button>
+        <br> <br> <br>
+        <button class="btn" onclick="document.location = 'create_rent.html'">Create new rent</button>
+        <br> <br> <br>
+        <button class="btn" onclick="document.location = 'rents.html'">Watch rents</button>
+        <br> <br> <br>
+    </div>
+    <div>
+        <button class="btn signup" onclick="document.location = 'login.html'">Sign in</button>
+    </div>
+</body>
+</html>

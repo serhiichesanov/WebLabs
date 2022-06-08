@@ -1,0 +1,85 @@
+* {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  color: white;
+}
+
+.profile {
+  top: 10%;
+  -webkit-transform: translateY(10%);
+          transform: translateY(10%);
+  background-color: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 5px gray dashed;
+  width: 350px;
+  height: 400px;
+  margin: auto;
+  width: 50%;
+}
+
+.photo {
+  text-align: center;
+  width: 35%;
+  padding: 20px;
+  height: 50%;
+}
+
+.info {
+  width: 65%;
+  height: 50%;
+  margin-top: 15px;
+}
+
+.info h {
+  font-style: italic;
+  font-size: 15px;
+  color: white;
+}
+
+.top {
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bottom {
+  height: 50%;
+  margin-left: 55px;
+}
+
+.home {
+  height: 50%;
+  text-align: center;
+}
+
+.btn {
+  top: 100%;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #FFF;
+  -webkit-box-shadow: 0 0 20px #eee;
+          box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  width: 200px;
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: transparent;
+}
+/*# sourceMappingURL=user.css.map */

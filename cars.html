@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarList</title>
+    <link rel="stylesheet" href="styles/cars.css">
+    <style>
+        body{
+        background-image: url('pictures/bg.jfif');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    </style>
+</head>
+<body>
+    <div class="title">
+        Car list
+    </div>
+    <div class="profile" onclick="document.location = 'user.html'">
+        <i>Profile</i>
+        <img src="pictures/profile.jfif" width="40" style="border-radius: 50%;">
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Car ID</th>
+                <th>Car mark</th>
+                <th>Car speed</th>
+                <th>Car number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Toyota</td>
+                <td>200</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Mercedes</td>
+                <td>210</td>
+                <td>48</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Haval</td>
+                <td>180</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Skoda</td>
+                <td>200</td>
+                <td>96</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Suzuki</td>
+                <td>210</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Chevrolet</td>
+                <td>220</td>
+                <td>24</td>
+            </tr>
+        </tbody>
+    </table>
+    </table>
+    <div class="title">
+        Want to rent a car?
+    </div>
+    <div class="buttons">
+        <button class="btn" onclick="document.location = 'rents.html'">Check existing rents</button>
+        <button class="btn" onclick="document.location = 'create_rent.html'">Book car</button>
+    </div>
+    <div class="home">
+        <button class="btn" onclick="document.location = 'home.html'">Home</button>
+    </div>
+</body>
+</html>

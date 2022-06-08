@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentList</title>
+    <link rel="stylesheet" href="styles/rents.css">
+    <style>
+        body{
+        background-image: url('pictures/bg.jfif');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    </style>
+</head>
+<body>
+    <div class="title">
+        Rents
+    </div>
+    <div class="profile" onclick="document.location = 'user.html'">
+        <i>Profile</i>
+        <img src="pictures/profile.jfif" width="40" style="border-radius: 50%;">
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Car ID</th>
+                <th>Amount of hours</th>
+                <th>Date time of reservation</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Serhii</td>
+                <td>Chesanov</td>
+                <td>1</td>
+                <td>24</td>
+                <td>05/18/2022</td>
+                <td>expired</td>
+            </tr>
+            <tr>
+                <td>Olga</td>
+                <td>Chesanova</td>
+                <td>2</td>
+                <td>48</td>
+                <td>06/08/2022</td>
+                <td>requested</td>
+            </tr>
+            <tr>
+                <td>Vladimir</td>
+                <td>Chesanov</td>
+                <td>3</td>
+                <td>12</td>
+                <td>05/31/2022</td>
+                <td>expired</td>
+            </tr>
+            <tr>
+                <td>Vladimir</td>
+                <td>Zelensky</td>
+                <td>4</td>
+                <td>96</td>
+                <td>06/07/2022</td>
+                <td>approved</td>
+            </tr>
+            <tr>
+                <td>Dmytro</td>
+                <td>Gordon</td>
+                <td>1</td>
+                <td>24</td>
+                <td>06/07/2022</td>
+                <td>approved</td>
+            </tr>
+            <tr>
+                <td>Dzi</td>
+                <td>Dzo</td>
+                <td>1</td>
+                <td>24</td>
+                <td>08/07/2022</td>
+                <td>approved</td>
+            </tr>
+        </tbody>
+    </table>
+    </table>
+    <div class="title">
+        Want to rent a car?
+    </div>
+    <div class="buttons">
+        <button class="btn" onclick="document.location = 'cars.html'">Check available cars</button>
+        <button class="btn" onclick="document.location = 'create_rent.html'">Book car</button>
+    </div>
+    <div class="home">
+        <button class="btn" onclick="document.location = 'home.html'">Home</button>
+    </div>
+</body>
+</html>

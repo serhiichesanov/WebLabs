@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles/registration.css">
+    <style>
+        body{
+        background-image: url('pictures/bg.jfif');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    </style>
+</head>
+<body>
+    <div class="title">
+        Registration
+    </div>
+    <div class="profile" onclick="document.location = 'user.html'">
+        <i>Profile</i>
+        <img src="pictures/profile.jfif" width="40" style="border-radius: 50%;">
+    </div>
+    <div class="registration">
+        <form class="form">
+            <br>Username<br>
+            <input class="type-1 " type="text" align="center" placeholder="username">
+            <br>Password<br>
+            <input class="number " type="text" align="center" placeholder="password">
+            <br>First name<br>
+            <input class="type-1 " type="text" align="center" placeholder="first name">
+            <br>Last name<br>
+            <input class="number " type="text" align="center" placeholder="last name">
+            <br>Email<br>
+            <input class="type-1 " type="text" align="center" placeholder="email">
+            <br>Adress<br>
+            <input class="number " type="text" align="center" placeholder="address">
+        </form>
+        <div class="buttons">
+            <br><button class="btn" onclick="document.location = 'login.html'">Log in</button>
+            <button class="btn"><i>Registration</i></button>
+        </div>
+    </div>
+    <div class="home">
+        <button class="btn" onclick="document.location = 'home.html'">Home</button>
+    </div>
+</body>
+</html>
