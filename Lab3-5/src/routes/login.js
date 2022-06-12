@@ -14,7 +14,7 @@ export default function Login() {
         axios.post(requestURL, userLog)
             .then((res) => {
                 window.localStorage.setItem('userData', res.config.data);
-                alert('[SUCCESS]');
+                alert('Ви увійшли в акаунт');
                 navigate('/home');
             })
             .catch((err) => {

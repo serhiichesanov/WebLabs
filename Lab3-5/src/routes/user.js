@@ -26,7 +26,7 @@ export default function User(){
         })
             .then(() => {
                 setOldUser({ oldPassword: user.password, oldUsername: user.username });
-                alert('[USER UPDATED SUCCESSFULLY]');
+                alert('Дані оновлено');
             })
             .catch((err) => {
                 alert(err.response.data);
@@ -43,7 +43,7 @@ export default function User(){
             password: undefined,
             phone: undefined,
         });
-        alert('[YOU ARE LOGGED OUT]');
+        alert('Ви вийшли з акаунту');
         window.localStorage.clear();
         navigate('/login');
     };
@@ -67,7 +67,7 @@ export default function User(){
         })
             .then(() => {
                 setOldUser({ oldPassword: undefined, oldUsername: undefined });
-                alert('[USER DELETED SUCCESSFULLY]');
+                alert('Користучач був видалений');
                 window.localStorage.clear();
             })
             .catch((err) => {
